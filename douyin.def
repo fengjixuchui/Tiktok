@@ -1,0 +1,13 @@
+;
+; douyin module-definition file
+;
+LIBRARY      douyin.dll
+EXPORTS
+	GetASCP                         @1
+	GetMAS                          @2
+	XlogEncrypt						@3
+	XlogDecrypt						@4
+	MemFree                         @5
+	GetMAS1                         @6
+	GetASCP1						@7
+	GetASCPDuosan					@8
